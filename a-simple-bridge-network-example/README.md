@@ -4,7 +4,7 @@ The matlab files here provides an example on how to perform system reliability a
 
 The Probability of failure of the bridge network is calculated using a) Monte Carlo simulation b) Matrix-based system reliability analysis (MSR) and 3) Sequential compounding method (SCM).
 
-![Alt text](ProblemDescription.pdf)
+![Alt text](https://github.com/nophibiton/Struct_Reliability/blob/a1b9426e5bd41b11c7abeb09e7e43723cc3a646d/a-simple-bridge-network-example/ProblemDescription.pdf)
 
 References:
 - Kang, W. H., Song, J., & Gardoni, P. (2008). Matrix-based system reliability method and applications to bridge networks. Reliability Engineering & System Safety, 93(11), 1584-1593.
