@@ -3,7 +3,7 @@ This repository contains different structural reliability (SR) analysis methods.
 
 **Structural reliability:**
 1. [1. Sequential compounding method](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/1.%20Sequential%20Compounding%20Method)
-2. [System Reliability bounds using Linear Programming](https://github.com/nophibiton/Struct_Reliability/tree/main/system-reliability-using-LP)
-3. [System reliability analysis of simple bridge network](https://github.com/nophibiton/Struct_Reliability/tree/main/a-simple-bridge-network-example)
-4. [Coupling of ZEUS-NL and FERUM](https://github.com/nophibiton/Struct_Reliability/tree/main/ZEUS-NL-and-FERUM-coupling)
-5. [AK- MCS Active Learning reliability method](https://github.com/nophibiton/Struct_Reliability/tree/main/AK_MCS)
+2. [2. System reliability bounds using LP](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/2.%20System%20reliability%20bounds%20using%20LP)
+3. [3. AK-MCS Active Learning reliability method](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/3.%20AK-MCS%20Active%20Learning%20reliability%20method)
+4. [4. [Example] System reliability analysis of bridge network](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/4.%20%5BExample%5D%20System%20reliability%20analysis%20of%20bridge%20network)
+5. [5. [Example] Coupling of ZEUS-NL and FERUM](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/5.%20%5BExample%5D%20Coupling%20of%20ZEUS-NL%20and%20FERUM)
