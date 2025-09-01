@@ -7,5 +7,5 @@ This repository contains different structural reliability (SR) analysis methods 
 3. [AK-MCS Active Learning reliability method](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/3.%20AK-MCS%20Active%20Learning%20reliability%20method)
 
 ** Other Application Examples* *
-[[Example] System reliability analysis of bridge network] (https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/4.%20%5BExample%5D%20System%20reliability%20analysis%20of%20bridge%20network)
-[[Example] Coupling of ZEUS-NL and FERUM] (https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/5.%20%5BExample%5D%20Coupling%20of%20ZEUS-NL%20and%20FERUM)
+1. [[Example] System reliability analysis of bridge network](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/4.%20%5BExample%5D%20System%20reliability%20analysis%20of%20bridge%20network)
+2. [[Example] Coupling of ZEUS-NL and FERUM](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/5.%20%5BExample%5D%20Coupling%20of%20ZEUS-NL%20and%20FERUM)
