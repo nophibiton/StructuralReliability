@@ -3,7 +3,7 @@ This repository contains different structural reliability (SR) analysis methods 
 
 **Structural reliability methods:**
 1. [Sequential compounding method](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/1.%20Sequential%20Compounding%20Method)
-2. [System reliability bounds using LP](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/2.%20System%20reliability%20bounds%20using%20LP)
+2. [System reliability bounds using LP](2. System reliability bounds using LP)
 3. [AK-MCS Active Learning reliability method](https://github.com/nophibiton/StructuralReliability/tree/bb0938c7654242f49f815cec3f694f5aea7fa482/3.%20AK-MCS%20Active%20Learning%20reliability%20method)
 
 **Other Application Examples**
