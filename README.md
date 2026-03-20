@@ -6,7 +6,7 @@ This repository contains different structural reliability (SR) analysis methods 
 2. [System reliability bounds using LP](./2.%20System%20reliability%20bounds%20using%20LP/)
 3. [AK-MCS Active Learning reliability method](./3.%20AK-MCS%20Active%20Learning%20reliability%20method/)
 4. [First-order reliability method for estimating system reliability](./4.%20First-order%20reliability%20method%20for%20estimating%20system%20reliability/)
-5. [Improved-HLRF] (./5.%20Improved-HLRF/)
+5. [Improved-HLRF](./5.%20Improved-HLRF/)
 
 **Other Application Examples**
 1. [[Example] System reliability analysis of bridge network](./[Example]%20System%20reliability%20analysis%20of%20bridge%20network/)
