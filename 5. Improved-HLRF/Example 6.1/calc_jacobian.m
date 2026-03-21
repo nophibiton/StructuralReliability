@@ -17,11 +17,10 @@ for i=1:nrv
             Jzx(i,i)  = 1/sigma;
 
         case 'lognormal'
-            xi     = distparams(i,4);
-            lambda = distparams(i,3);
+            xi = sqrt( log( 1 + ( distparams(i,2) / distparams(i,1) )^2 ) );
 
-            Jzx(i,i)  = 1/(xi*lambda);         
-
+            Jzx(i,i)  = 1/(xi*x(i));         
+         
         case 'gumbel'
             nu     = distparams(i,3);  
             alpha  = distparams(i,4);

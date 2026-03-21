@@ -22,7 +22,7 @@ for i=1:nrv
         case 'lognormal'
             cov    = Xstd(i)/Xmu(i);
             zeta   = sqrt(log(1 + cov^2));
-            lambda = log(Xstd(i)) - 0.5*zeta^2; 
+            lambda = log(Xmu(i)) - 0.5*zeta^2; 
 
             distparams(i,1) = Xmu(i);  
             distparams(i,2) = Xstd(i);
