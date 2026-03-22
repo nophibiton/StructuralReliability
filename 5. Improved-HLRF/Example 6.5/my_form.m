@@ -41,7 +41,7 @@ probdata.R     = [1.0,0.5,0.3,0.0; ...
 distparams          = get_dist_params(probdata);
 probdata.distparams = distparams;
 
-Ro   = mod_corr(probdata.R,probdata);
+Ro   = modify_corr(probdata.R,probdata);
 Lo   = (chol(Ro))';
 iLo  = inv(Lo);
 
@@ -86,7 +86,7 @@ while true
         break;
     end
     if i == max_iter
-        exit_message = 'Maximum iteration is observed.';
+        exit_message = 'Maximum iteration is reached.';
         break;
     end
 
@@ -108,3 +108,4 @@ alpha = -dGu/norm(dGu)
 ustar = u
 xstar = trans_u2x(ustar,probdata, Lo)
 beta  = alpha'*ustar
+disp(exit_message)
