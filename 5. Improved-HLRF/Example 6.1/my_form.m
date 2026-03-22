@@ -29,7 +29,7 @@ probdata.R     = [1.0,0.5; ...
 distparams          = get_dist_params(probdata);
 probdata.distparams = distparams;
 
-Ro   = mod_corr(probdata.R,probdata);
+Ro   = modify_corr(probdata.R,probdata);
 Lo   = (chol(Ro))';
 iLo  = inv(Lo);
 
@@ -82,7 +82,7 @@ while true
         break;
     end
     if i == max_iter
-        exit_message = 'Maximum iteration is observed.';
+        exit_message = 'Maximum iteration is reached.';
         break;
     end
 

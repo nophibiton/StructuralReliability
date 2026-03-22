@@ -16,8 +16,8 @@ for i=1:nrv
             z(i)  = (x(i)-mu)/sigma;
 
         case 'lognormal'
-            xi     = parameter(i,4);
-            lambda = parameter(i,3);
+            xi     = distparams(i,4);
+            lambda = distparams(i,3);
 
             z(i)   = ( log(x(i)) - lambda ) / xi ;          
 
