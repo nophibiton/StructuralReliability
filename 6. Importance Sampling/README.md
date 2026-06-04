@@ -66,18 +66,17 @@ $$
 4.  Transform $\mathbf{x}_i= \mathbf{T}^{-1}(\mathbf{u}_i^{(h)})$ into the real space.
 5.  Evaluate the limit state function at $g(\mathbf{x}_i)$.
 6.  Calculate the value of $q_i$ with $I[\mathbf{x}_i] = 1$ if $g(\mathbf{T}^{-1}(\mathbf{u})) \leq 0$; otherwise $I[\mathbf{x}_i] = 0$. The density functions $\phi\left(\mathbf{u}_i^{(h)} \right)$ is the standard normal PDF and $h\left(\mathbf{u}_i^{(h)} \right)$ is the normal PDF with properties $N(\mathbf{u}^{*}, \sigma^2 \mathbf{I})$.
-7.  Repeat 4-6 for $i=1,..,n_{samples}$.
+7.  Repeat 3-6 for $i=1,..,n_{samples}$.
 8.  The failure probability is calculated as $$
     p_F \approx \frac{1}{n_{samples}} \sum_{i=1}^{n_{samples}} q_i
     $$
 
 ## Example
 
-Given random variables $R\sim N(6,1^2)$ and $S\sim N(3,1^2)$. The limit state function is given as $g(R,s)=R-S$. The samples for a Monte Carlo simulation and Importance sampling is shown below. The design point identified $u^* = [-1.5, 1.5]$ or in real space $u^* = [4.5, 4.5]$.
+Given random variables $R\sim N(6,1^2)$ and $S\sim N(3,1^2)$. The limit state function is given as $g(R,s)=R-S$. The samples for a Monte Carlo simulation and Importance sampling is shown below. The design point identified $u^* = [-1.5, 1.5]$ or in real space $u^* = [4.5, 4.5]$. The
 
-::: {style="text-align: center;"}
 <img src="figure.png" width="300"/>
-:::
+
 
 The matlab codes provided here demonstrates on how to perform reliability analysis using Importance sampling.
 
