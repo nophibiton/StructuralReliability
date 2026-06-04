@@ -6,7 +6,7 @@ $$
 p_F = \int_{\Omega_f} f_{\mathbf{X}}(\mathbf{x}) \, d\mathbf{x}
 $$
 
-where the joint probability density function $f_{\mathbf{X}} (\cdot)$ of the random vector $\mathbf{X}$ is integrated over the failure domain $\Omega_f = \{ \mathbf{x} | g(\mathbf{x}) \leq 0 \}$ with $g(\cdot)$ as the limit state function. This can reformulated as
+where the joint probability density function $f_{\mathbf{X}} (\cdot)$ of the random vector $\mathbf{X}$ is integrated over the failure domain $\Omega_f = \left{ \mathbf{x} | g(\mathbf{x}) \leq 0 \right}$ with $g(\cdot)$ as the limit state function. This can reformulated as
 
 $$
 \begin{align}
@@ -67,7 +67,8 @@ $$
 5.  Evaluate the limit state function at $g(\mathbf{x}_i)$.
 6.  Calculate the value of $q_i$ with $I[\mathbf{x}_i] = 1$ if $g(\mathbf{T}^{-1}(\mathbf{u})) \leq 0$; otherwise $I[\mathbf{x}_i] = 0$. The density functions $\phi\left(\mathbf{u}_i^{(h)} \right)$ is the standard normal PDF and $h\left(\mathbf{u}_i^{(h)} \right)$ is the normal PDF with properties $N(\mathbf{u}^{*}, \sigma^2 \mathbf{I})$.
 7.  Repeat 3-6 for $i=1,..,n_{samples}$.
-8.  The failure probability is calculated as $$
+8.  The failure probability is calculated as 
+	$$
     p_F \approx \frac{1}{n_{samples}} \sum_{i=1}^{n_{samples}} q_i
     $$
 
