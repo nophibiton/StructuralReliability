@@ -73,7 +73,7 @@ $$
 
 ## Example
 
-Given random variables $R\sim N(6,1^2)$ and $S\sim N(3,1^2)$. The limit state function is given as $g(R,s)=R-S$. The samples for a Monte Carlo simulation and Importance sampling is shown below. The design point identified $u^* = [-1.5, 1.5]$ or in real space $u^* = [4.5, 4.5]$. The
+Given random variables $R\sim N(6,1^2)$ and $S\sim N(3,1^2)$. The limit state function is given as $g(R,s)=R-S$. The samples for a Monte Carlo simulation and Importance sampling is shown below. The design point identified $u^* = [-1.5, 1.5]$ or in real space $u^* = [4.5, 4.5]$.
 
 <img src="figure.png" width="300"/>
 
