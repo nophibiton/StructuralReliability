@@ -67,10 +67,7 @@ $$
 5.  Evaluate the limit state function at $g(\mathbf{x}_i)$.
 6.  Calculate the value of $q_i$ with $I[\mathbf{x}_i] = 1$ if $g(\mathbf{T}^{-1}(\mathbf{u})) \leq 0$; otherwise $I[\mathbf{x}_i] = 0$. The density functions $\phi\left(\mathbf{u}_i^{(h)} \right)$ is the standard normal PDF and $h\left(\mathbf{u}_i^{(h)} \right)$ is the normal PDF with properties $N(\mathbf{u}^{*}, \sigma^2 \mathbf{I})$.
 7.  Repeat 3-6 for $i=1,..,n_{samples}$.
-8.  The failure probability is calculated as 
-	$$
-    p_F \approx \frac{1}{n_{samples}} \sum_{i=1}^{n_{samples}} q_i
-    $$
+8.  The failure probability is calculated as $p_F \approx \frac{1}{n_{samples}} \sum_{i=1}^{n_{samples}} q_i$
 
 ## Example
 
