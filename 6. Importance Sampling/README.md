@@ -6,7 +6,7 @@ $$
 p_F = \int_{\Omega_f} f_{\mathbf{X}}(\mathbf{x}) \, d\mathbf{x}
 $$
 
-where the joint probability density function $f_{\mathbf{X}} (\cdot)$ of the random vector $\mathbf{X}$ is integrated over the failure domain $\Omega_f = \left{ \mathbf{x} | g(\mathbf{x}) \leq 0 \right}$ with $g(\cdot)$ as the limit state function. This can reformulated as
+where the joint probability density function $f_{\mathbf{X}} (\cdot)$ of the random vector $\mathbf{X}$ is integrated over the failure domain $\Omega_f = { \mathbf{x} | g(\mathbf{x}) \leq 0 }$ with $g(\cdot)$ as the limit state function. This can reformulated as
 
 $$
 \begin{align}
